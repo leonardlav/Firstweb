@@ -38,34 +38,43 @@ nav h2 {
 
 #test1 {
     width: 700px;
-    height: 500px;
+    height: 1000px;
     float: left;
     background: silver;
+    
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
 
 }
 
-#test1 h2 {
-    font-size: 40px;
+#test1 h1 {
+    margin-inline-start: 10px;
     text-align: center;
-    line-height: 500px;
-
 }
-
+#test1 h2 {
+    margin-inline-start: 10px;
+ }
+#test1 h3 {
+    margin-inline-start: 10px;
+}
+#test1 p {
+    margin-inline-start: 10px;
+}
 aside {
     width: 250px;
-    height: 500px;
+    height: 1000px;
     background: skyblue;
     margin-top: 10px;
     float: right;
+    
 }
 
 aside h2 {
     font-size: 40px;
-    text-align: center;
-    line-height: 500px;  
+    text-align: left;
+    line-height: 500px;
+
 }
 
 
